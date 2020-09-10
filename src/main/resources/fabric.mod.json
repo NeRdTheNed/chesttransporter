@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "chesttransporter",
+  "version": "${version}",
+
+  "name": "Chest Transporter",
+  "description": "Adds an item that allows you to transport chests.",
+  "authors": [
+    "CubeX2"
+  ],
+  "contact": {
+    "homepage": "https://github.com/NeRdTheNed/chesttransporter",
+    "sources": "https://github.com/NeRdTheNed/chesttransporter"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/chesttransporter/textures/items/ct_wood.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cubex2.mods.chesttransporter.ChestTransporter"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+  
+}
